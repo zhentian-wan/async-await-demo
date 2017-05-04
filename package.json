@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -p ./g",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.0-dev.20170404"
   }
 }
